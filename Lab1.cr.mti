@@ -1,4 +1,11 @@
-C:/Users/Faran/Desktop/GitHub/lab1/lab1_top.sv {1 {vlog -work work -sv -stats=none C:/Users/Faran/Desktop/GitHub/lab1/lab1_top.sv
+C:/Users/Faran/Desktop/GitHub/lab1/lab1_top_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/Faran/Desktop/GitHub/lab1/lab1_top_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab1_top_tb
+
+Top level modules:
+	lab1_top_tb
+
+} {} {}} C:/Users/Faran/Desktop/GitHub/lab1/lab1_top.sv {1 {vlog -work work -sv -stats=none C:/Users/Faran/Desktop/GitHub/lab1/lab1_top.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module lab1_top
 

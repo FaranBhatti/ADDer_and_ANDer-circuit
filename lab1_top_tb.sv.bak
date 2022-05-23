@@ -45,35 +45,6 @@ initial begin
 
 	// print out the current values to Modelsim command line
 	$display("Output is %b, we expected %b", sim_result, (4'b1100 & 4'b1010));
-
-	// our second test: try ADDING
-	sim_LEFT_pushbutton = 1'b0;
-	sim_RIGHT_pushbutton = 1'b1;
-	sim_A = 4'b1100;
-	sim_B = 4'b1010;
-
-	// again, wait five timesteps to allow these changes to occur
-	#5;
-
-	// print out the current values to Modelsim command line
-	$display("Output is %b, we expected %b", sim_result, (4'b1100 + 4'b1010));
-
-	// try changing the inputs, note that we're still adding!
-	sim_A = 4'b0001;
-	sim_B = 4'b0011;
-	#5;
-
-	// displaying the output after changing our inputs A and B w/ADD
-	$display("Output is %b, we expected %b", sim_result, (4'b0001 + 4'b0011));
-
-	// Lets go back to ANDing
-	sim_LEFT_pushbutton = 1'b1;
-	sim_RIGHT_pushbutton = 1'b0;
-	#5;
-
-	//displaying the output after changing to AND operation
-	$display("Output is %b, we expected %b", sim_result, (4'b0001 & 4'b0011));
-
 	$stop;
 end
 endmodule
