@@ -1,0 +1,10 @@
+// file name: lab1_top_tb
+// creator: M.Faran Bhatti, 05-22-2022
+// description: test module for top level module lab1_top
+
+// Testbench module declaration
+module lab1_top_tb();
+// No inputs or outputs, because it is a testbench 
+
+
+endmodule
