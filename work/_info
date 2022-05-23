@@ -8,3 +8,27 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/Work/Projects/TicTacToe
+vlab1_top
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1653276095
+!i10b 1
+!s100 z4^PgeP8YM?_^>z4?5YPR1
+I78mLhe;BIM9N4ia1z]BUD0
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 lab1_top_sv_unit
+S1
+dC:/Users/Faran/Desktop/GitHub/lab1
+w1653275879
+8C:/Users/Faran/Desktop/GitHub/lab1/lab1_top.sv
+FC:/Users/Faran/Desktop/GitHub/lab1/lab1_top.sv
+L0 5
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1653276095.000000
+!s107 C:/Users/Faran/Desktop/GitHub/lab1/lab1_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Faran/Desktop/GitHub/lab1/lab1_top.sv|
+!i113 1
+o-work work -sv
+tCvgOpt 0
