@@ -14,4 +14,6 @@ Outputs:
 
 Description:
 
-Goal is to add or and inputs A and B depending on which pushbutton is pressed. If both pushbuttons are pressed simultaneously then the right pushbutton takes priority which adds the inputs A and B.
+Goal is to add or and inputs A and B depending on which pushbutton is pressed. If both pushbuttons are pressed simultaneously then the right pushbutton takes priority which adds the inputs A and B. 
+
+The implementation of this is done on the De1-SoC Cyclone 5 FPGA.
