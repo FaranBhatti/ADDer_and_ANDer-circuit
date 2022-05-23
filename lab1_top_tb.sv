@@ -23,5 +23,28 @@ lab1_top DUT (
 	);
 
 // initial test script
+initial begin
+	// start out by setting our buttons to "not-pushed"
+	sim_LEFT_pushbutton = 1'b0;
+	sim_RIGHT_pushbutton = 1'b0;
+	
+	// start out with our inputs both being 0s.
+	sim_A = 4'b0;
+	sim_B = 4'b0;
 
+	// wait five simulations timesteps to allow these changes to happen
+	#5;
+
+	// our first test: try ANDing
+	sim_LEFT_pushbutton = 1'b1;
+	sim_A = 4'b1100;
+	sim_B = 4'b1010;
+
+	// again, wait five timesteps to allow these changes to occur
+	#5;
+
+	// print out the current values to Modelsim command line
+	$display("Output is %b, we expected %b", sim_result, (4'b1100 & 4'b1010));
+	$stop;
+end
 endmodule
