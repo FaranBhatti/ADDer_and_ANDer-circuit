@@ -74,6 +74,22 @@ initial begin
 	//displaying the output after changing to AND operation
 	$display("Output is %b, we expected %b", sim_result, (4'b0001 & 4'b0011));
 
+	// lets change the inputs and ADD them and then AND them
+	sim_A = 4'b1010;
+	sim_B = 4'b0110;
+	#5;
+	
+	//displaying the output after changing to AND operation
+	$display("Output is %b, we expected %b", sim_result, (4'b1010 & 4'b0110));
+
+	// lets add them now
+	sim_LEFT_pushbutton = 1'b0;
+	sim_RIGHT_pushbutton = 1'b0;
+	#5;
+
+	//displaying the output after changing to AND operation
+	$display("Output is %b, we expected %b", sim_result, (4'b1010 + 4'b0110));
+
 	$stop;
 end
 endmodule
